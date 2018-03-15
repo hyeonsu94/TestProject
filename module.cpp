@@ -9,6 +9,13 @@ double Cal_module::Get_result(){
         case '/':
             result = num1/num2;
             break;
+        case '+':
+            result = num1+num2;
+            break;
+
+        case '-':
+            result = num1-num2;
+            break;        
     }
     return result;
 }

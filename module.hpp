@@ -12,4 +12,5 @@ public:
         this->operating = operating;
     }
     double Get_result();
+    Cal_module& Set_val(int num1,int num2,char operating);
 };
